@@ -17,7 +17,7 @@ namespace MathParser
         private void Calc_Click(object sender, RoutedEventArgs e)
         {
             Expression ex = new Expression(stro.Text);
-            stro.Text = ex.calculate().ToString();
+            stro.Text = ex.calculate().ToString().Replace(",",".");
 
 
         }

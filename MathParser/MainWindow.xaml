@@ -5,10 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MathParser"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Калькулятор" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="stro" HorizontalAlignment="Left" Margin="146,134,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="356" Height="117"/>
+        <TextBox x:Name="stro" HorizontalAlignment="Left" Margin="127,49,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="356" Height="34" FontSize="24"/>
         <Button x:Name="calc" Content="Button" HorizontalAlignment="Left" Margin="285,314,0,0" VerticalAlignment="Top" Click="Calc_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="127,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="356" x:Name="TxtBl"/>
+        <Grid.RowDefinitions>
 
+        </Grid.RowDefinitions>
     </Grid>
 </Window>
